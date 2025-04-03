@@ -27,6 +27,11 @@ anomalies.
 
 
 ## Write Up
+
+![overview](images/01_IndexSummary.png)
+
+Looking at the summary we are dealing with 7 indexes here. 
+
 1. Check all indexes and endpoints to see the scope we are dealing with. (| eventcount summarize=false index=*), (| metadata type=sourcetypes | fields sourcetype)
 2. Since the first Q is asking an ip for scanning, it is likely we will find the answer in firewall based logs or the end point, EDR, XDR
 3. first, limit the time frame
