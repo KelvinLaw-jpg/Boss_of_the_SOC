@@ -23,6 +23,7 @@ anomalies.
 4. What types of logs are we dealing with? (Network/Endpoints)
 5. What duration is the scope?
 6. What department of the company is associated with which endpoints?
+7. If there was an incident/event happened, what is the characteristics of this event and what logs would it be associated with?
 
 
 ## Write Up
