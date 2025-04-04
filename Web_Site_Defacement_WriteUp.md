@@ -30,11 +30,29 @@ anomalies.
 
 ![overview](images/01_IndexSummary.png)
 
+1. Check all indexes and endpoints to see the scope we are dealing with. (| eventcount summarize=false index=*), (| metadata type=sourcetypes | fields sourcetype)
+
 Looking at the summary we are dealing with 7 indexes here. 
 
-1. Check all indexes and endpoints to see the scope we are dealing with. (| eventcount summarize=false index=*), (| metadata type=sourcetypes | fields sourcetype)
-2. Since the first Q is asking an ip for scanning, it is likely we will find the answer in firewall based logs or the end point, EDR, XDR
-3. first, limit the time frame
-4. search (index=botsv1 sourcetype=fgt* "domainname")
-5. look for traffic for this domain IP (index=botsv1 sourcetype=stream:http "IP")
-6. Do reconnaissance from attack IP
+![st](images/02_sourcetype.png)
+![st](images/03_useragent.png)
+![st](images/04_srcIP.png)
+![st](images/05_2attackIP.png)
+![st](images/06_victimIP.png)
+![st](images/07_AlertCat.png)
+![st](images/08_AlertSig.png)
+![st](images/09_VictimIP.png)
+![st](images/10_httpRefer.png)
+![st](images/11_Request.png)
+![st](images/12_URL.png)
+![st](images/13_AttackerIP.png)
+![st](images/14_formData.png)
+![st](images/15_maliciousexe.png)
+![st](images/16_MaliciousHash.png)
+![st](images/17_MaliciousHash.png)
+![st](images/18_DomainEmail.png)
+![st](images/19_Password.png)
+![st](images/20_correctpassword.png)
+![st](images/21_Gettingmeanpwlen.png)
+
+![st](images/23_vbsLeng.png)
